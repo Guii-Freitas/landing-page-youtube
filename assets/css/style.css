@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+
+    background-color: #141216;
+    overflow-x: hidden;
+
+}
+
+.principal{
+
+    display: flex;
+
+}
+
+
+/* NAVBAR */
+
+#navbar {
+
+    height: 3.5rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: .1rem;
+
+}
+
+#navbar .sideLeft {
+
+    width: 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+
+}
+
+#navbar .sideLeft .icon-menu {
+
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+#navbar .sideLeft .icon-menu:hover {
+
+    background-color: #272727;
+
+}
+
+#navbar .sideLeft .logo {
+
+    width: 6rem;
+
+}
+
+#navbar .center {
+
+    display: flex;
+
+}
+
+#navbar .center input {
+
+    height: 2.5rem;
+    width: 35rem;
+    background-color: transparent;
+    border: 1px solid #292929;
+    border-radius: 50px 0px 0px 50px;
+    color: white;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+#navbar .center button {
+
+    height: 2.5rem;
+    width: 3.5rem;
+    background-color: #31302C;
+    border: 1px solid #292929;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+#navbar .center button img {
+
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar .center .mic {
+
+    background-color: #181818;
+    border-radius: 100px;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+
+}
+
+#navbar .center .mic:hover {
+
+    background-color: #272727;
+
+}
+
+#navbar .center .mic .icon-mic {
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+#navbar .sideRight {
+
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+
+}
+
+#navbar .sideRight .icon-upload {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+
+#navbar .sideRight .icon-bell {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+
+#navbar .sideRight .profile {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(83, 73, 73);
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+/* SECTION VIDEO PRINCIPAL */
+
+#mainVideo {
+
+    height: 50rem;
+    width: 70vw;
+    padding-left: 5rem;
+    padding-top: 3rem;
+
+}
+
+#mainVideo h1{
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+#mainVideo .info {
+
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: .5rem;
+
+}
+
+#mainVideo iframe {
+
+    width: 70vw;
+    height: 42rem;
+
+}
+
+#mainVideo .info .perfilCanal img {
+
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 100px;
+
+}
+
+#mainVideo .info .perfilCanal {
+
+    height: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#mainVideo .info .perfilCanal .canal h3 {
+
+    font-weight: 900;
+
+}
+
+#mainVideo .info .perfilCanal .canal h4{
+
+    width: 7rem;
+    font-weight: 100;
+    font-size: .8rem;
+
+}
+
+#mainVideo .info .inscrever {
+
+    background-color: white;
+    height: 2.3rem;
+    border-radius: 50px;
+    width: 7rem;
+    color: #0f0f0f;
+    border: none;   
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 8rem;
+
+}
+
+#mainVideo .info .inscrever:hover{
+
+    background-color: #c5c5c5;
+    
+}
+
+#mainVideo .info .feedback {
+
+    display: flex;
+    background-color: #272727;
+    height: 1.5rem;
+    padding: .4rem;
+    border-radius: 50px;
+    margin-left: 21rem;
+
+}
+
+
+#mainVideo .info .feedback .like {
+
+    width: 6rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+
+}
+
+#mainVideo .info .feedback .like:hover{
+
+    background-color: #272727;
+
+}
+
+#mainVideo .info .feedback .like .icon-like {
+
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#mainVideo .info .feedback .deslike {
+
+    width: auto;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    cursor: pointer;
+    border-left: .5px solid white;
+    margin-left: 10px;
+    padding-left: 5px;
+
+}
+
+#mainVideo .info .feedback h1 {
+
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+#mainVideo .info .botoes {
+
+    display: flex;
+    gap: .5rem;
+
+}
+
+#mainVideo .info .botoes h1 {
+
+    font-size: 1rem;
+
+}
+
+#mainVideo .info .botoes .share {
+
+    width: 10rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #272727;
+    padding: .4rem;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+#mainVideo .info .botoes .share .icon-compartilhar {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+#mainVideo .info .botoes .baixar {
+
+    width: auto;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    color: white;
+    background-color: #272727;
+    padding: .4rem;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+#mainVideo .info .botoes .baixar .icon-baixar {
+
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#mainVideo .info .botoes .clipe .icon-clipe{
+
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#mainVideo .info .botoes .clipe {
+
+    width: auto;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #272727;
+    padding: .4rem;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+/* SECTION DESCRIÇÃO */
+
+#descricao .txtDesc {
+
+    height: 5rem;
+    width: 68vw;
+    margin-top: 3rem;
+    background-color: #272727;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+#descricao .txtDesc h3{
+
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+#descricao .txtDesc h4{
+
+    font-weight: 400;
+}
+
+#descricao .txtDesc h2 {
+
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+/* SECTION VIDEOS RECOMENDADOS */
+
+
+#recomendados{
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 500px;
+
+}
+
+#recomendados .filtro{
+
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+
+}
+
+#recomendados .filtro .btn-filtro:hover{
+
+    background-color: white;
+    color: black;
+
+}
+
+#recomendados .filtro button{
+
+    height: 35px;
+    min-width: 80px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #302F2E;
+    cursor: pointer;
+    color: white;
+    border: none;
+
+}
+
+#recomendados .video {
+
+    display: flex;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+
+#recomendados .video img{
+
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 1rem;
+
+}
+
+#recomendados .video h2{
+
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+#recomendados .video h4{
+
+    font-size: .8rem;
+    font-weight: 100;
+
+}
